@@ -11,3 +11,7 @@ These links are provided simply to relay the methods I used to get my device up 
 4. My next hurdle was in installing pip3 on the Raspberry Pi. I was apparently not the only one who encountered this issue, as there was a solution on [StackOverflow](https://stackoverflow.com/questions/45954528/pip-is-configured-with-locations-that-require-tls-ssl-however-the-ssl-module-in). I used the solution for [Debian](https://stackoverflow.com/a/49696062), as the Raspbian OS is derived from Debian.
 5. At this point, I was able to install Flask on my server by running **sudo pip3 install flask** in the terminal.
 6. Once Flask was installed, I built and hosted a simple 'Hello World' app using the steps described in the official Flask [Quickstart](https://flask.palletsprojects.com/en/1.1.x/quickstart/) guide. Once the server was up and running, I confirmed that I was able to access the app using the browser on my Windows machine as a client.
+
+##Example of a working Raspberry Pi Flask server:
+
+![Example](/Show_and_tell.png)
